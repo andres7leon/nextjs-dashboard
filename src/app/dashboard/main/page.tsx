@@ -1,8 +1,12 @@
+import { SimpleWidget } from "@/components";
+import { WidgetsGrid } from '../../../components/WidgetsGrid';
 
 export default function MainPage() {
   return (
-    <div>
-      <h1>Hello Page main</h1>
+    <div className="p-2">
+      <h1>Dashboard</h1>
+      <span> Informacion general</span>
+      <WidgetsGrid />
     </div>
   );
 }
